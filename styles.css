@@ -44,3 +44,37 @@ button:hover {
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+
+/* Sentiment Analysis Styles */
+
+.sentiment-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .sentiment-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .sentiment-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .sentiment-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .sentiment-output {
+    margin-top: 20px;
+    font-size: 18px;
+  }
